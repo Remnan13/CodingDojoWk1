@@ -5,4 +5,5 @@
 			$('img').click(function(){
 				$(this).slideUp().delay(5000).slideDown();
 			})
+			$()
 		});

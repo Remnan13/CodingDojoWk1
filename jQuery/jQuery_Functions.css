@@ -20,6 +20,8 @@
 	vertical-align: top;
 	display: inline-block;
 	margin: 5px;
+	border-style: inset;
+	box-shadow: 2px 2px 2px black;
 }
 .rowBackground{
 	position: relative;
@@ -29,13 +31,19 @@
 	vertical-align: top;
 	display: inline-flex;
 	margin-right: 25px;
-	box-shadow: 3px 3px 3px;
+	box-shadow: 5px 5px 5px black;
+	background: navy;
+	color: limegreen;
+	font-weight: 800;
+	height: 50px;
+	border-radius: 20px;
 }
 #wrapper .sectRow p{
 	width: 75%;
 	font-size: 14px;
 	display: inline-block;
-	overflow: hidden;
+	overflow: auto;
+	font-weight: 600;
 }
 h1{
 	font-size: 34px;
